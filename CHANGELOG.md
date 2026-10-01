@@ -1,5 +1,7 @@
 # Unreleased
 
+  * Fix a stack overflow when SCTP hands many packets to DTLS at once
+
 # 0.24.0
 
   * Keep `a=simulcast`/`a=rid` for send simulcast in SDP after the first offer.
